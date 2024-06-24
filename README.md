@@ -10,6 +10,12 @@ To evaluate and optimize our machine learning model, we will focus on the follow
 2. **Precision and Recall**: These metrics will help us understand the model's performance in terms of correctly identifying positive, negative, and neutral sentiments.
 3. **F1 Score**: This metric combines precision and recall to give a balanced measure of the model's performance, especially useful when dealing with imbalanced classes.
 
+## Project Structure
+1. **Data Preparation**: Consist of data extraction, data checking, and preprocessing. The preprocessing result then saved for later use.
+2. **Data Visualization**: Creating visualizations and analyses to better understand the tweet text data and identify any patterns or trends.
+3. **Vectorizer**: Transforming text data into numerical representations using vectorization techniques. The vectorizer model then saved for later use.
+4. **Models**: Model architecture definition, training using vectorized preprocessed data, and metrics evaluation.
+
 ## Result
 
 ![alt text](https://github.com/andreanstev/Sentiment_Analysis_Pilpres_2019/blob/main/image/Accuracy%20vs.%20Model.png?raw=true)
